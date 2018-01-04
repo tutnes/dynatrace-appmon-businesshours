@@ -44,7 +44,7 @@ var exampleHour = {
 
 
 function getBusinessHours(profile) {
-  let path = encodeURI("/api/v2/profiles/" + d + "/businesshours");
+  let path = encodeURI("/api/v2/profiles/" + profile + "/businesshours");
   options.path = path;
   invokeRest(options, logOutput);
 }
