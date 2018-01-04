@@ -77,7 +77,7 @@ function logOutput(d) {
 
 function getProfiles(d) {
   for (let i = 0; i < d.systemprofiles.length; i++) {
-    deleteBusinessHour(d.systemprofiles[i].id,exampleHour2.businesshoursName);
+    //deleteBusinessHour(d.systemprofiles[i].id,exampleHour2.businesshoursName);
     //putBusinessHour(d.systemprofiles[i].id,exampleHour2.businesshoursName,exampleHour2.body);
     //getBusinessHours(d.systemprofiles[i].id);
   }

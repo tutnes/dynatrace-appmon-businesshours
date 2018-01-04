@@ -1,1 +1,1 @@
-"# dynatrace-appmon-businesshours" 
+# dynatrace-appmon-businesshours
